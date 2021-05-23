@@ -181,69 +181,121 @@
     margin-top: 30px;
 }
 
-@media only screen and (max-width: 600px) {
-    .Item {
-        width: 100%;
-        min-width: 350px;
-        height: 290px;
-        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-        background-color: #ffffff;
-        margin-bottom: 15px;
-    }
-    .padding-left {
-        padding-left: 3px;
-    }
-    .filter-options {
-        box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
-        background-color: #ffffff;
-        padding-left: 30px;
-        margin-bottom: 10px;
-        width: 455px;
-        margin-left: 15px;
-        min-height: 25px;
-    }
-    .rest-name {
-        height: 43px;
-        font-family: Poppins;
-        font-size: 30px;
-        font-weight: 600;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.53;
-        letter-spacing: normal;
-        text-align: left;
-        color: #192f60;
-        margin-left: 20px;
-    }
-    .res-location {
-        height: 23px;
-        font-family: Poppins;
-        font-size: 16px;
-        font-weight: 500;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.88;
-        letter-spacing: normal;
-        text-align: left;
-        color: #192f60;
-        margin-left: 20px;
-    }
-    .rest-address {
-        height: 23px;
-        font-family: Poppins;
-        font-size: 16px;
-        font-weight: normal;
-        font-stretch: normal;
-        font-style: normal;
-        line-height: 1.88;
-        letter-spacing: normal;
-        text-align: left;
-        color: #636f88;
-        margin-left: 20px;
-    }
-    .toggle-span {
-        float: right;
-        padding: 5px 0px 5px 0px;
-        display: initial;
-    }
+.heading {
+    height: 43px;
+    margin: 40px 606px 22px 0;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.53;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
 }
+.tab{
+    font-family: Poppins;
+    font-weight: 600;
+    color: #192f60;
+  }
+
+  .tab1{
+    width: 181px;
+    height: 31px;
+    margin: 44px 2px 50px 0px;
+    font-family: Poppins;
+    font-size: 22px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+
+ .tab2{
+  width: 68px;
+  height: 25px;
+  margin: 50px 115px 11px 0px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+  }
+  .tab3{
+    width: 197px;
+    height: 30px;
+    margin: 11px 707px 25px 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.88;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+  .tab4{
+    width: 124px;
+    height: 25px;
+    margin: 25px 59px 16px 0px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+  .tab5{
+    width: 249px;
+    height: 28px;
+    margin: 16px 655px 0 0p;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+  .tab6{
+    width: 124px;
+    height: 25px;
+    margin: 25px 59px 16px 0px;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
+  .tab7{
+    width: 249px;
+    height: 28px;
+    margin: 16px 655px 0 0p;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.63;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+  }
