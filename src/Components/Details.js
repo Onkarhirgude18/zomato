@@ -111,29 +111,29 @@ class Details extends Component {
                     restaurantDetails !== undefined 
                     ?
                         <div className="container">
-                            <img src={imagePath} alt="rest" style={{ width: '100%'}}/>
-                            <h2>{restaurantDetails[0].name}</h2>
+                            <img src={imagePath} alt="rest" style={{ width: '100%', border:'10px'}}/>
+                            <h2 className="heading">{restaurantDetails[0].name}</h2>
                             <div className="placeorder">
                                 <button className="btn btn-danger" onClick={this.placeOrder}>Place order</button>
                             </div>
                             <Tabs>
                                 <TabList>
-                                    <Tab>Overview</Tab>
-                                    <Tab>Contact</Tab>
+                                    <Tab><h3 className="tab">Overview</h3></Tab>
+                                    <Tab><h4 className="tab">Contact</h4></Tab>
                                 </TabList>
 
                                 <TabPanel>
-                                    <h3>About this place</h3>
+                                    <h3 className="tab1">About this place</h3>
 
-                                    <h4>Cuisine</h4>
-                                    <p>{restaurantDetails[0].cuisine.map(cs => cs.name + ', ')}</p>
+                                    <h4 className="tab2">Cuisine</h4>
+                                    <p className="tab3">{restaurantDetails[0].cuisine.map(cs => cs.name + ', ')}</p>
 
-                                    <h4>Average cost</h4>
-                                    <p>{restaurantDetails[0].min_price}</p>
+                                    <h4 className="tab4">Average cost</h4>
+                                    <p className="tab5" >{restaurantDetails[0].min_price}</p>
                                 </TabPanel>
                                 <TabPanel>
-                                    <h3>Contact</h3>
-                                    <p>{restaurantDetails[0].locality} - {restaurantDetails[0].city}</p>
+                                    <h3 className="tab6">Contact</h3>
+                                    <p className="tab7">{restaurantDetails[0].locality} - {restaurantDetails[0].city}</p>
                                 </TabPanel>
                             </Tabs>
                         </div>
