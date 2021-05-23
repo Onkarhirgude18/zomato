@@ -189,32 +189,39 @@ class Header extends Component {
                     </div>
                 </div>
                 <Modal isOpen={isSignUpFormOpen} style={customStyle} ariaHideApp={false}>
-                    <div>
+                <form>
                         <h1>SignUp Form</h1>
-                        <label>First Name:</label>
-                        <input type="text" value={FN} onChange={(event) => this.handleChange(event, 'FN')}></input>
+                       
+                        <input placeholder="First Name" type="text" value={FN} onChange={(event) => this.handleChange(event, 'FN')}></input>
                         <br/>
-                        <label>Last Name:</label>
-                        <input type="text" value={LN} onChange={(event) => this.handleChange(event, 'LN')}></input>
+                       
+                        <input placeholder="Last Name" type="text" value={LN} onChange={(event) => this.handleChange(event, 'LN')}></input>
                         <br/>
-                        <label>Email:</label>
-                        <input type="email" value={Email} onChange={(event) => this.handleChange(event, 'Email')}></input>
+                       
+                        <input placeholder="Email" type="email" value={Email} onChange={(event) => this.handleChange(event, 'Email')}></input>
                         <br/>
-                        <label>Password:</label>
-                        <input type="password" value={Password} onChange={(event) => this.handleChange(event, 'Password')}></input>
+                       
+                        <input placeholder="Password" type="password" value={Password} onChange={(event) => this.handleChange(event, 'Password')}></input>
                         <br/>
                         <button onClick={this.signUpHandler}>Sign Up</button>
                         <button onClick={this.signUpCancelHandler}>Cancel</button>
-                    </div>
+                        <GoogleLogin
+                            clientId="425040852305-ouakvg2ce2i8e99c77dcpg9692s2ttbj.apps.googleusercontent.com"
+                            buttonText="Login"
+                            onSuccess={this.responseGoogleSuccess}
+                            onFailure={this.responseGoogleFailure}
+                            cookiePolicy={'single_host_origin'}
+                        />
+                    </form>
                 </Modal>
                 <Modal isOpen={isSignInFormOpen} style={customStyle} ariaHideApp={false}>
-                    <div>
+                    <form>
                         <h1>SignIn Form</h1>
-                        <label>Email:</label>
-                        <input type="email" value={Email} onChange={(event) => this.handleChange(event, 'Email')}></input>
+                        
+                        <input placeholder="Email" type="email" value={Email} onChange={(event) => this.handleChange(event, 'Email')}></input>
                         <br/>
-                        <label>Password:</label>
-                        <input type="password" value={Password} onChange={(event) => this.handleChange(event, 'Password')}></input>
+                        
+                        <input  placeholder="Password" type="password" value={Password} onChange={(event) => this.handleChange(event, 'Password')}></input>
                         <br/>
                         <button onClick={this.signInHandler}>Sign In</button>
                         <button onClick={this.signInCancelHandler}>Cancel</button>
@@ -227,7 +234,7 @@ class Header extends Component {
                             onFailure={this.responseGoogleFailure}
                             cookiePolicy={'single_host_origin'}
                         />
-                    </div>
+                    </form>
                 </Modal>
             </>
         )
