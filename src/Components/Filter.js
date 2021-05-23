@@ -65,7 +65,7 @@ class Filter extends Component {
         return (
             <>
                 <div className="container">
-                    <div id="myId" className="heading row">{mealName} Places in Mumbai</div>
+                    <div id="myId" className="heading row">{mealName} Places in Delhi</div>
                     <div className="row">
                         <div className="col-sm-3 col-md-3 col-lg-3 filter-options">
                             <span className="glyphicon glyphicon-th-list toggle-span" data-toggle="collapse" data-target="#demo"></span>
