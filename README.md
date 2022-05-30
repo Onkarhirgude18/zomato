@@ -1,4 +1,4 @@
-Watch Live:- https://mern.zomato.clone.herokuapp.com
+Watch Live:- https://mern-zomato-clone.herokuapp.com
 
 # Getting Started with Create React App
 
