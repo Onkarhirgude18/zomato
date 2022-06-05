@@ -76,7 +76,7 @@ class Wallpaper extends Component {
                         <p>e!</p>
                     </div>
                     <div className="headings">
-                        Find the best restaurants, cafes, bars
+                        Discover the best food & drinks , restaurant, cafes and bars
                     </div>
                     <div className="locationSelector">
                         <select className="locationDropdown" onChange={this.handleChange}>
